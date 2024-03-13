@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KTN's_First_Mod.main.iml" filepath="$PROJECT_DIR$/.idea/modules/KTN's_First_Mod.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KTN's_First_Mod.test.iml" filepath="$PROJECT_DIR$/.idea/modules/KTN's_First_Mod.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/myFirstMod.iml" filepath="$PROJECT_DIR$/.idea/myFirstMod.iml" />
     </modules>
   </component>

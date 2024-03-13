@@ -1,37 +1,40 @@
 {
-	"schemaVersion": 1,
-	"id": "ktn-mod",
-	"version": "${version}",
-	"name": "KTN's First Mod",
-	"description": "This is just KTN's First Mod",
-	"authors": [
-		"Me!"
-	],
-	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
-	},
-	"license": "MIT License",
-	"icon": "assets/ktn-mod/icon.png",
-	"environment": "*",
-	"entrypoints": {
-		"main": [
-			"net.ktn.firstmod.FirstMod"
-		],
-		"fabric-datagen": [
-			"net.ktn.firstmod.ExampleModDataGenerator"
-		]
-	},
-	"mixins": [
-		"ktn-mod.mixins.json"
-	],
-	"depends": {
-		"fabricloader": ">=0.14.22",
-		"minecraft": "~1.19.4",
-		"java": ">=17",
-		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
-	}
+  "schemaVersion": 1,
+  "id": "ktn-mod",
+  "version": "${version}",
+  "name": "KTN's First Mod",
+  "description": "This is just KTN's First Mod",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "MIT License",
+  "icon": "assets/ktn-mod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.ktn.firstmod.FirstMod"
+    ],
+    "client": [
+      "net.ktn.firstmod.FirstModClient"
+    ],
+    "fabric-datagen": [
+      "net.ktn.firstmod.ExampleModDataGenerator"
+    ]
+  },
+  "mixins": [
+    "ktn-mod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "minecraft": "~1.19.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
 }
